@@ -26,7 +26,7 @@ int main(){
     /*      inicio->ptr->ptr->edad;
                         equivale a escribir
             (inicio + 2)->edad;
-                        el 2 equivale a la posicion n en la que se guardan los datos
+                        el 2 equivale a la posicion n+1 en la que se guardan los datos
     */
     struct Alumno alumno_4;
     ((inicio+3)->ptr) =& alumno_4;
